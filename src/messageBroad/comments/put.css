@@ -1,0 +1,44 @@
+.btn-enter {
+  opacity: 0;
+  transform: translateX(50%);
+}
+.btn-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 500ms;
+}
+
+.btn-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.btn-exit-active {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 500ms;
+}
+
+.TextArea-enter {
+  opacity: 0;
+  transform: translateX(50%);
+}
+
+.TextArea-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 300ms;
+}
+.TextArea-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+.TextArea-exit-active {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 300ms;
+}
+.TextArea-exit-done {
+  opacity: 0;
+  transform: translateY(-50%);
+}

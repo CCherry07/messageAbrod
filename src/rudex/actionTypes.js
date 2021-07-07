@@ -1,0 +1,1 @@
+export const LEAVE_A_MESSAGE = 'LEAVE_A_MESSAGE'
